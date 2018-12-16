@@ -1,2 +1,3 @@
 [VPS]
-vps177717	139.99.97.108	vps177717.vps.ovh.ca	ansible_user=ansible
+#vps177717	139.99.97.108	vps177717.vps.ovh.ca	ansible_user=ansible
+localhost
