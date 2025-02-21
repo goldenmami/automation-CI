@@ -40,7 +40,7 @@ jobs:
       uses: alex-oleshkevich/setup-ansible@v1.0.1
       with:
     # The version of Ansible to install.
-        version: "latest"
+        version: "11.2.0"
           
 
     - name: Ansible Playbook
