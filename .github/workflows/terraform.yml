@@ -44,7 +44,7 @@ jobs:
 
     # Install the latest version of ansible
     - name: Setup ansible
-      uses: alex-oleshkevich/setup-ansible@VERSION 
+      uses: alex-oleshkevich/setup-ansiblev@1.0.1
       with:
           version: "latest"
 
