@@ -41,7 +41,9 @@ jobs:
       with:
     # The version of Ansible to install.
         version: "11.2.0"
-          
+    - name: Set LAN
+      shell: pwsh
+      run: LANG="en_IN.UTF-8"
 
     - name: Ansible Playbook
       run: ansible-playbook playbook.yml
